@@ -1,23 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using demo_web_07.Models.BUS;
 using System.Web.Mvc;
+using System.Linq;
+using PagedList;
 
 namespace demo_web_07.Controllers
 {
     public class ShopController : Controller
     {
         // GET: Shop
-        public ActionResult Index()
+        public ActionResult Index(int page = 1, int pagesize=3)
         {
-            return View();
+            var db = ShopOnline.DanhSach().ToPagedList(page, pagesize); 
+            return View(db);
         }
 
         // GET: Shop/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(string id)
         {
-            return View();
+            var db = ShopOnline.ChiTiet(id);
+            return View(db);
         }
 
         // GET: Shop/Create
