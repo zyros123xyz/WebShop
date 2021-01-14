@@ -16,5 +16,15 @@ namespace demo_web_07.Models.BUS
             var db = new ShopConnectionDB();
             return db.SingleOrDefault<SanPham>("select * from SanPham where  MaSanPham = @0",a);
         }
+        public static IEnumerable<SanPham> Top4New()
+        {
+            var db = new ShopConnectionDB();
+            return db.Query<SanPham>("select Top 4 * from SanPham where GhiChu = 'new'");
+        }
+        public static IEnumerable<SanPham> TopHot()
+        {
+            var db = new ShopConnectionDB();
+            return db.Query<SanPham>("select Top 4 * from SanPham where LuotView > 0 ");
+        }
     }
 }

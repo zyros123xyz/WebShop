@@ -155,7 +155,6 @@ C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\bin\
 C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\bin\Newtonsoft.Json.xml
 C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\bin\Antlr3.Runtime.pdb
 C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\obj\Debug\demo_web_07.csprojAssemblyReference.cache
 C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\obj\Debug\demo_web_07.csproj.CoreCompileInputs.cache
 C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\obj\Debug\demo_web_07.csproj.CopyComplete
 C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\obj\Debug\demo_web_07.dll
@@ -164,3 +163,4 @@ C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\bin\
 C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\bin\PagedList.Mvc.dll
 C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\bin\PagedList.xml
 C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\bin\PagedList.Mvc.xml
+C:\Users\Acer\Desktop\lien quan den web\git\WebShop\demo_web_07\demo_web_07\obj\Debug\demo_web_07.csprojAssemblyReference.cache
